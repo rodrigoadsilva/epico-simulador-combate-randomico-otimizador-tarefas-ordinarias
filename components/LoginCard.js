@@ -2,7 +2,7 @@ import { Card } from 'react-bootstrap';
 
 export default function LoginCard() {
     return(
-        <Card style={{ width: '100%', height: '300px' }}>
+        <Card style={{ width: "100%", height: "300px" }}>
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>

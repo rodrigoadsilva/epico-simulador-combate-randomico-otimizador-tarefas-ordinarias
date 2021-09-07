@@ -16,7 +16,7 @@ export default function Home() {
         <Row className="h-100 justify-content-center pt-5">
           <Col md={3}>
             <h1 className="main-title text-center text-white py-0">ESCROTO</h1>
-            <h5 className="mb-4" style={{ color: '#cccccc'}}>Épico Simulador de Combate Randomico Otimizador de Tarefas Ordinárias</h5>
+            <h5 className="mb-4" style={{ color: "#cccccc"}}>Épico Simulador de Combate Randomico Otimizador de Tarefas Ordinárias</h5>
             <LoginCard/>
           </Col>
         </Row>
