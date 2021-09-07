@@ -14,9 +14,9 @@ export default function Home() {
       </Head>
       <Container className="bg-smdark h-100 pt-5" fluid>
         <Row className="h-100 justify-content-center pt-5">
-          <Col md={3}>
-            <h1 className="main-title text-center text-white py-0">ESCROTO</h1>
-            <h5 className="mb-4" style={{ color: "#cccccc"}}>Épico Simulador de Combate Randomico Otimizador de Tarefas Ordinárias</h5>
+          <Col md={6} className="d-flex flex-column align-items-center">
+            <div className="main-title text-center text-white py-0">ESCROTO</div>
+            <div className="main-subtitle text-center mb-4" style={{ color: "#cccccc"}}>Épico Simulador de Combate Randomico Otimizador de Tarefas Ordinárias</div>
             <LoginCard/>
           </Col>
         </Row>
